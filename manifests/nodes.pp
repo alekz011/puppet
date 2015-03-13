@@ -1,3 +1,5 @@
 node 'ubuntu', 'ubuntu2' {
-  include puppet
+  file {'/tmp/hello':
+    content => "Hello ja sam ${::hostname}\n",
+  }
 }
