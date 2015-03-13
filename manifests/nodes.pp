@@ -1,3 +1,3 @@
-node 'cookbook','cookbook-test' {
+node 'ubuntu' {
   include puppet
 }
